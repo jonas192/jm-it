@@ -1,3 +1,28 @@
 body{
-    background-color: blueviolet;
+    background-color: rgb(103, 159, 185);
 }
+img{
+    width: 100%;
+    transition: transform .1s;
+    margin-top: 10px;
+}
+img:hover{ 
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    }
+    .contenaire{
+        width: 800px;
+        height: 500px;
+        border: 1px black solid;
+        margin-left: 300px;
+        padding: 12px;
+    }
+    .cont-element{
+        margin-left: auto;
+        margin-right: auto;
+        background-color: grey;
+        padding: 15px;
+        width: 300px;
+        
+    }
